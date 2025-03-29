@@ -10,5 +10,5 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      timezone: "JP"
-      time: "12:38"
+      timezone: "Asia/Tokyo"
+      time: "12:43"
