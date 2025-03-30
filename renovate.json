@@ -3,5 +3,12 @@
   "extends": [
     "config:recommended"
   ],
-  "automerge": true
+  "automerge": true,
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["patch", "minor"],
+      "excludePackageNames": ["typescript"],
+      "groupName": "all minor and patch dependencies"
+    },
+  ],
 }
