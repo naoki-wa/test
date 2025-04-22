@@ -7,8 +7,14 @@
 version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/" # Location of package manifests
+    directory: "/foo" # Location of package manifests
     schedule:
       interval: "daily"
       timezone: "Asia/Tokyo"
-      time: "11:47"
+      time: "12:06"
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/bar" # Location of package manifests
+    schedule:
+      interval: "daily"
+      timezone: "Asia/Tokyo"
+      time: "12:08"
